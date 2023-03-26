@@ -1,0 +1,15 @@
+1 PWD- To know the current working directory of the user
+2 mkdir - to create the new directory
+3 cd - to change the directory
+4 git version- to know the current git version on your system
+5 git config --global user.name "your user name" - to set your user name for git
+6 git config --global user.email "your email address" - to set your email address for git
+7 git config --global --list- gives the name and email address set by above two commands
+8 git clone - to clone your repository on local machine
+9 ls - list down all the content in your repository
+10 git status - to know the status of repository
+11 echo "some content" >> File Name - this command will create new file and add the data in double quotes to that file
+12 cat file_name - to know the content in the file
+13 git add file_name - to add the file in staging area(by this command file will be tracked and git will show it as changes to be committed)
+14 git commit -m "message" - to move tje file from staging area to local repository(now the changes will be tracked)
+15 git push origin master - to push the changes in local repository to the remote repository(here origin refers to thegithub copy of our repository and master refers to the github branch where we are pushing the changes)
