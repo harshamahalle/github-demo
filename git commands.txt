@@ -13,3 +13,7 @@
 13 git add file_name - to add the file in staging area(by this command file will be tracked and git will show it as changes to be committed)
 14 git commit -m "message" - to move tje file from staging area to local repository(now the changes will be tracked)
 15 git push origin master - to push the changes in local repository to the remote repository(here origin refers to thegithub copy of our repository and master refers to the github branch where we are pushing the changes)
+16 git iniy repo_name - to create new repository
+17 - git init -b defaul_branch_name repository_name - here -b allow us to specify the default branch name for the repository
+18 git config --global init.defaultBranch branch_name - This will update our settings to use branch name specified as default branch unless we specify other branch name explicitly
+19 nano Readme - to edit the read me file
