@@ -1,0 +1,7 @@
+1. reverse an element in an array - swipe first and last element and increase the starting index and decrease the end element by 1 
+2. find the unique element in an array where all other element are present twice- XOR all element in an array and return result
+3. Rotate the array to the left (counter-clockwise direction) by D steps- first d=d%n (because if u want torotate array 7 times it will be same ans as 7%n. then reverse array  from 0 to d-1 then from d to n-1 and then reverse whole array)
+4. Pair with given sum in a sorted array - two pointer approach
+5. Sort an array of 0s, 1s and 2s- dutch flag algorithm
+6. Majority Element - Moore's algorithm
+7. 
