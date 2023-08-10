@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(9, 120, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.search{
+    position: relative;
+    height:50px;
+}
+
+.search input{
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    transition: width 0.3s ease-in;
+}
+.search button{
+    background-color: #fff;
+    position: cursor;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 50px;
+    width: 50px;
+    transition:transform 0.3s ease ;
+}
+.btn:focus,
+input:focus{
+    outline: none;
+}
+.search.active .btn{
+    transform: translateX(198px);
+}
+.search.active input{
+    width: 200px;
+}

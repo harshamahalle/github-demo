@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("./img/flowe-bg.jpg")
+    no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* height:100vh;
+    width: 100vw; */
+}
+h1{
+    margin: 10px;
+}
+.box {
+    background: url("./img/Wedding-bg.jpg") no-repeat center center/cover;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 7px;
+    /* text-align: center; */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition:transform 0.3s ease;
+}
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
+.box h2{
+    font-size: 50px;
+    color: rgb(58, 8, 58);
+}
